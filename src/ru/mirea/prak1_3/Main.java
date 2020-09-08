@@ -1,7 +1,10 @@
 package ru.mirea.prak1_3;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        Random r = new Random();
+        int tmp = r.nextInt();
+        System.out.println(tmp);
     }
 }
