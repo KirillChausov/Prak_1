@@ -1,5 +1,7 @@
 package ru.mirea.prak1_4;
 
+import java.util.Scanner;
+
 public class Main {
     public static long fact(int n){
         int result = 1;
@@ -12,6 +14,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+
+        long result = fact(n);
+        System.out.println(result);
+
     }
 }
